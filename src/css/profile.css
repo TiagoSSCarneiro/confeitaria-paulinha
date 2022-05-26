@@ -1,0 +1,46 @@
+.design-profile {
+    line-height: 190%;
+    color: var(--color-dark);
+    margin: 3rem;
+    flex-direction: column;
+}
+
+.design-profile h2{
+    font-size: 2.5rem;
+    
+}
+
+.design-profile .profile .info-profile h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.design-profile .profile .info-profile p{
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.design-profile .profile img {
+    width: 80%;
+}
+
+.design-profile .profile .ico-profile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.design-profile .profile .ico-profile img{
+    border-radius: 50%;
+    width: 20%;
+    border: 0.1rem solid black;
+}
+
+.design-profile .profile .ico-profile .info-contact {
+    display: flex;
+    flex-direction: column;
+}

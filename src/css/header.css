@@ -1,0 +1,60 @@
+ header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}  
+.header-info {
+    max-width: 37.5rem;
+    margin: 0 auto;
+    flex-direction: column;   
+}
+
+.header-info .image-logo img {
+    width: 100%;
+}
+
+.header-info .container-icon{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    gap: 2rem;
+    
+}
+
+.header-info .icon {
+    flex-direction: row;
+    font-size: 3rem;
+    color: var(--color-dark);
+    transition: 0.2s ease-in;
+}
+.header-info .icon:hover{
+    color: var(--color-button);
+}
+
+.header-info .header-title{
+    padding: 0 5.5rem 5rem;
+    color: var(--color-dark);
+    font-size: 2.5rem;
+    line-height: 130%;
+}
+
+.header-info .header-title h2{
+    font-size: 1.8rem;
+    padding-top: 2rem;
+  
+}
+
+.header-info .button-request {
+    margin-bottom: 3rem;
+}
+.header-info .image-central {
+    padding-left: 2rem;
+}
+
+

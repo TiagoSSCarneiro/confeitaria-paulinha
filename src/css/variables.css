@@ -1,0 +1,13 @@
+:root {
+    --color-primary:#f598e9;;
+    --color-secondary: #f8dded;
+    --color-button:#207bd8;
+    --color-dark:#515765;
+
+}
+
+.color1 {color: #207bd8;}
+.color2 {color: #9487e7;}
+.color3 {color: #f598e9;}
+.color4 {color: #f8bded;}
+.color5 {color: #f8dded;}

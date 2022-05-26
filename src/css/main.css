@@ -1,0 +1,105 @@
+.container-sale {
+    background:linear-gradient(180deg, var(--color-secondary)15%, rgb(255, 255, 255) 9%);
+    flex-direction: column; 
+    color: var(--color-dark);   
+}
+
+.container-main .container-sale .image-central{
+    padding-left: 2rem;
+}
+
+.container-main .container-sale .image-central img{
+    width: 90%;
+  
+}
+
+.container-main .product-sale .list-sale .list img{
+    border-radius: 3rem;
+}
+
+.container-sale .sale-title h2{
+    font-size: 3rem;
+    padding: 1.2rem;
+    
+}
+
+.container-main .product-sale h2 {
+    font-size: 3rem;
+    padding-bottom: 1.8rem;
+}
+
+.list-images {
+    display: none;
+}
+
+.first-image {
+    display: block;
+}
+
+.container-main .product-sale .list-sale {
+    flex-wrap: wrap;
+    border-radius: 1rem;
+}
+
+.container-main .product-sale .list-sale .list{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-main .product-sale .list-sale .list h2{
+    padding-top: 1.3rem;
+    font-size: 1.8rem;
+}
+
+.product-sale .list-sale .list p{
+    font-family: 'Poppins';
+    color: dimgrey;
+    font-size: 1.5rem;
+    padding: 0 1rem 2rem;
+
+}
+
+.product-sale .list-sale .list p:nth-child(4){
+    font-size: 2rem;
+    font-weight: 600;  
+}
+
+.product-sale .list-sale .list p:nth-child(5){
+    font-size: 2.2rem;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.product-sale .button-request{
+    margin: 2rem 2rem;
+}
+
+.container-arrow {
+    margin: 0 auto; 
+    border-radius: 3rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container-arrow  .arrow i{
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    background-color: #f8bded;
+    width:3.5rem;
+    height:3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0.1rem solid var(--color-button);
+    
+}
+
+
+
+
+
